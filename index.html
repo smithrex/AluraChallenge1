@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AluraChallenge1-Encriptador</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap" rel="stylesheet">   
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head> 
+
+    <body>
+        <div class="TITLE">
+            <p>ENCRIPTADOR DE PALABRILLAS</p>
+        </div>
+        
+        <div class="container">
+            <div class="grid-container1">
+                <textarea id="txtINPUT" type="text" placeholder="Escriba aqui su mensaje; Sin mayusculas ni acentos"></textarea>
+                <button class="btnENC" type="submit" onclick="ENCRYPT()" href="#txt">Encriptar</button>
+                <button class="btnDES" type="submit" onclick="DECRYPT()" href="#txt">Desencriptar</button>
+            </div>              
+            <div class="grid-container1">
+                <textarea id="txtOUTPUT" type="text" placeholder="Acá se verá su mensaje encriptado..." ></textarea>
+                <button class="btnCOPY" onclick="COPY()">COPIAR</button>
+                <p class="txt" id="txt"></p>
+            </div>
+        </div>
+        <footer> Oracle Alura Challenge 1, ¡Vamos con todo para programar!  </footer>
+        <script src="script.js"></script>
+
+      
+    </body>
+</html>
